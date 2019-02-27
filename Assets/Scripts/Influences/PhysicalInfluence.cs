@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
+/// <summary>
+/// Represents a physical influence
+/// </summary>
 public class PhysicalInfluence : Influence
 {
     public Vector3 Force

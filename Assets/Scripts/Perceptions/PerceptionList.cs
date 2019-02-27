@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
+/// <summary>
+/// A list of perceptions
+/// </summary>
 public class PerceptionList
 {
     private string id;

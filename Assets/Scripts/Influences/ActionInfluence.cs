@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
+/// <summary>
+/// Represents an action influence
+/// </summary>
 public class ActionInfluence : Influence
 {
     public string ActionType

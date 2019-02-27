@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// A body with this behaviour attached is able to perceive objects within a frustum collider
+/// </summary>
 public class Perceiver : MonoBehaviour
 {
     [SerializeField]

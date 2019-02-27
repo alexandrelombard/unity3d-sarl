@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Script in charge of applying the influences on the bodies
+/// </summary>
 public class InfluenceApplier : MonoBehaviour
 {
     private Dictionary<string, PhysicalInfluence> influences = new Dictionary<string, PhysicalInfluence>();

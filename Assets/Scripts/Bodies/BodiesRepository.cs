@@ -3,6 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// The repository of all bodies in the simulation (singleton pattern)
+/// </summary>
 public class BodiesRepository : MonoBehaviour
 {
     [SerializeField]

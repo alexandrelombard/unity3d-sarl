@@ -3,6 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Utility class to dispatch actions to the main thread
+/// </summary>
 public class UnityMainThreadDispatcher : MonoBehaviour
 {
 

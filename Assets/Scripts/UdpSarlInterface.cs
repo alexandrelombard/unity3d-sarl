@@ -6,6 +6,9 @@ using System.Net.Sockets;
 using System.Threading;
 using UnityEngine;
 
+/// <summary>
+/// Interface to the SARL environment
+/// </summary>
 public class UdpSarlInterface : MonoBehaviour
 {
     [SerializeField]
@@ -48,6 +51,10 @@ public class UdpSarlInterface : MonoBehaviour
         udpClient.Close();
     }
 
+    /// <summary>
+    /// Emits the perceptions to the SARL agents
+    /// </summary>
+    /// <param name="perceptionList">The list of perceptions</param>
     public void EmitPerceptions(PerceptionList perceptionList)
     {
         var ipEndPoint = new IPEndPoint(IPAddress.Loopback, this.emissionPort);

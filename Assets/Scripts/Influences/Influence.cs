@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
+/// <summary>
+/// Abstract class for influences (both physical and action)
+/// </summary>
 public abstract class Influence
 {
     public const string PHYSICAL_INFLUENCE = "0101";

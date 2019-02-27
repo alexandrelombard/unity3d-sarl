@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
+/// <summary>
+/// Represents a simulation control action
+/// </summary>
 public class SimulationControl
 {
     public const string SIMULATION_CONTROL = "0001";

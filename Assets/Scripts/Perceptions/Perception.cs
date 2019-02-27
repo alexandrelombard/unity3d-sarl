@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
+/// <summary>
+/// Represents a perception
+/// </summary>
 public class Perception
 {
     private Vector3 position;
